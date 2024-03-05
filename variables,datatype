@@ -1,0 +1,13 @@
+console.log ("there is about to be variable and datatypes..(var,let,const"))
+let  a=20 // let is block scopet
+{
+  let  a='wasif here'
+  console.log(a)
+}
+console.log(a)
+//use of var can also use let is place of var.var is also golobaly in program
+var b=4555
+console.log(b)
+//const is use to fix value of variable 
+const c='wasif here'
+console.log(c)
