@@ -1,0 +1,8 @@
+console.log ("this is start of javascript")
+
+function addition(a,b,c)
+{
+return a,b,c
+}
+let d=addition(1,4,7)
+console.log("addition is "+d)
