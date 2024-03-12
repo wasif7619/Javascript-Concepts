@@ -1,0 +1,20 @@
+console.log("there is about to be primitive and objects...(nn bb ss u)");
+console.log("null,number,Bigint,boolean,string,symbol,undefined");
+console.log("these are primitive data types");
+let a = null;
+let b = 4555;
+let c = BigInt("4555") + BigInt("1000");
+let d = true; // can be false
+let e = "wasif here";
+let f = Symbol("abc");
+let g = undefined;
+console.log(a, b, c, d, e, f, g);
+console.log(typeof e); // this is  to check data type of a variable
+
+//object
+let obj = {
+  wasif: 1234,
+  ali: true,
+  4555: undefined,
+};
+console.log(obj["ali"]);
