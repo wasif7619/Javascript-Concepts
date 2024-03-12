@@ -1,0 +1,25 @@
+//Q1 add string with integer
+let a='wasif';
+let b= 4555
+console.log(a+b)
+//Q2  show data type of it 
+console.log(typeof b)
+//Q3 make constant object 
+const obj=
+  {
+    a:"wasif",
+    b:4555,
+    c:false
+  }
+//Q4  add new variable 
+obj['ali']="mola"
+//obj[c]=true   //its not working because obj of c is fix just for obj 
+console.log(obj["ali"])
+
+//Q5 use of disctionary
+const dis=
+{
+   a:"ali",
+   b:"Bilal",
+}
+console.log(dis.b)
