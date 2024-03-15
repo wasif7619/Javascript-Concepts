@@ -1,0 +1,39 @@
+console.log(" arthimatic operators in javascript")
+a=5;
+b=2;
+console.log("value of a is 5")
+console.log("value of b is 2")
+console.log("a+b=",a+b)
+console.log("a-b=",a-b)
+console.log("a*b=",a*b)
+console.log("a/b=",a/b)
+console.log("a%b=",a%b)
+console.log("a**b=",a**b) //here a have a power which is b 
+console.log("a++=",a++) // value of a is 5
+console.log("++a=",++a) //value of a is 7
+console.log("a--=",a--) //value of a is 7
+console.log("--a=",--a) //value of a is 5
+
+console.log(" assigment  operators in javascript")
+c=6
+console.log(c)
+d=7
+c+=d
+console.log(c)
+c-=d
+console.log(c)
+
+//all are same like c+=d,c-=d,c*=d,c/=d,c%=d,c**=d
+
+ console.log(" comparison   operators in javascript")
+//a==b,a!=b,a===b (this mean value and datatype is also same) a!==b,a>b,a<b,a>=b,a<=b,a?b (the output is in true and false). 
+
+console.log(" logical   operators in javascript")
+//&&
+//||
+//!
+y=5
+z=2
+console.log(y<3 && z==2)
+console.log(y>3 || z==2)
+console.log(y!=3 && z!=4)
