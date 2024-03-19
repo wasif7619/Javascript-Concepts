@@ -1,0 +1,30 @@
+console.log("this is about to be conditions and alert,prompt")
+let a=prompt("whats your age ..")
+alert=Number.parseInt(a)
+if(a>18 && a<30)
+{
+     alert("you are welcomed")
+}
+else if (a<0 || a<17)
+{
+    alert("please enter valid age")
+}
+else
+{
+    alert("your age is not valid to enter ")
+}
+
+console.log("use of switch statement here")
+
+let b=prompt("whats name of your dog")
+switch(b)
+  {
+    case 'jack':
+      alert("you are right")
+      break;
+      case'dobarman':
+      case'german shaperd':
+      case'roait willer':
+      console.log("you are wrong")
+      break;
+  }
