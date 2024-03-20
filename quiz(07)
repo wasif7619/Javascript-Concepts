@@ -1,0 +1,57 @@
+console.log("practice questions ")
+//q1 check age using logical operators
+/*
+let a=prompt("enter your age")
+if(a>=10 && a<=20)
+{
+  console.log("your age is ",a)
+}*/
+//q2 demonstrate use of switch statement 
+/* let b=20
+let a=prompt("enter your age now")
+a=Number.parseint(a)
+if(a==b){
+switch(b)
+  {
+    case 10:
+    case 15:
+      console.log("incorrect age")
+      break;
+    case 20:
+      console.log("correct age")
+    default:
+      console.log("specify your age ")
+  }}
+  */
+
+//q3 program to check number is divisible of 2 or 3
+/*let a=prompt("Enter  a number ")
+b=Number.parseInt(a)
+if(b%2==0)
+{
+  console.log("number is divisible of 2")
+}
+else if(b%3==0)
+{
+  console.log("number is divisible of 3")
+}
+*/
+//q4 check number is divisible either 2 or 3
+ /*let a=prompt("Enter  a number ")
+b=Number.parseInt(a)
+if(b%2==0 || b%3==0)
+{
+  console.log("number is divisible of 2 and 3")
+}
+else 
+{
+  console.log("number is not divisible of  2 and 3")
+}
+*/
+// using turnery operation 
+/*
+let a = prompt("Enter your age")
+a = Number.parseInt(a)
+const message = a > 18 ? "You can drive" : "You can't drive"
+console.log(message)
+*/
