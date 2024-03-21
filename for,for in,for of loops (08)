@@ -1,0 +1,66 @@
+//sum of all natural number using for loop
+let sum=0
+let n=prompt("enter a number for addition")
+n=Number.parseInt(n)
+for(let i=0;i<n;i++)
+  {
+    sum+=i+1
+  }
+console.log("sum of all natural number is ",sum)
+
+//factorail of a number 
+let fact = 1; 
+let fac = prompt("Enter a number for factorial")
+fac = Number.parseInt(fac) 
+
+for (let i = 1; i <= fac; i++) {
+    fact *= i
+}
+console.log("Factorial of the number is", fact)
+
+//print table of any number using for loop
+let tab=prompt("enter a number to print table of that number ")
+tab=Number.parseInt(tab)
+for(let i=1;i<11;i++)
+{
+ console.log(tab,"*",i,"=",tab*i) 
+}
+
+//for in loop is used when we just need keys 
+let obj=
+{
+  wasif:34,
+  ali:80,
+  ahmed:67,
+  ajmal:90,
+  peter:99
+};
+for(let a in obj)
+  {
+    console.log("number of ",a ,"is",obj[a])
+  }
+
+//using for in loop
+let person=
+  {
+   person1 :
+    { 
+    name:'Wasif',
+    age:20,
+    Gender:'male'
+   },
+    person2 :
+      {
+        name:'ali',
+        age:23,
+        Gender:'male'
+      }
+  };
+for (let b in person)
+  {
+    console.log("detail of person one  is ",b,":",person1[b])
+  }
+for (let c in person)
+  {
+    console.log("detail of person two  is ",c,":",person2[c])
+  }
