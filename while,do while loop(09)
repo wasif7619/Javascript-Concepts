@@ -1,0 +1,27 @@
+//while loop 
+let n= prompt("enter a number")
+n=Number.parseInt(n)
+let i=100
+while(n<100)
+  {
+    console.log(i)
+   i++
+  }
+//example 
+/*let w=prompt("enter a number")
+w=Number.parseInt(w)
+while(w<=5)
+  {
+    console.log(w)
+  }
+*/
+//do while loop
+let w=prompt("enter a number")
+w=Number.parseInt(w)
+let c=3
+do
+  {
+    console.log(c)
+  }
+  while(w<=5)
+
