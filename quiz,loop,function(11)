@@ -1,0 +1,37 @@
+//q1
+let obj=
+  {
+    wasif:64,
+    fahad:89,
+    ali:90
+  };
+/*for(let i=0;i<Object.keys(obj).length;i++)
+  {
+    console.log("marks is"+Object.keys[obj][i]) 
+  }*/
+//q2 display value from object using for in loop 
+for(let key in obj)
+  {
+    console.log("marks are  "+key,":"+obj[key])
+  }
+//q3 take input until right answer
+let num=4555
+let n=Number.parseInt(prompt("enter a number"))
+while(num!=n)
+  {
+    alert("try again")
+    n=Number.parseInt(prompt("enter a number"))
+  }
+alert("you are right")
+
+//q4 find mean of 5 numbers using arrow function
+let a=1
+let b=2
+let c=3
+let d=4
+let e=5
+let mean =()=>
+{
+  return a+b+c+d+e/5
+}
+console.log("mean of numbers is ",mean())
