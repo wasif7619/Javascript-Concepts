@@ -1,0 +1,33 @@
+//functions
+function table(a)
+{
+  a=prompt("enter number to print its table")
+  a=Number.parseInt(a)
+  for(let i=0;i<11;i++)
+    {
+      console.log(a,"*",i,"=",a*i)
+    }
+}
+console.log("tabele of number is ",table(a))
+console.log("table of another number is ",table(a))
+
+
+//second way yo create method 
+let abc=()=>
+  {
+    console.log("another way to create  method")
+    
+  }
+abc();
+
+
+let sfmkdf =()=>
+  {
+    console.log("null here")
+  }
+console.log("data is ",sfmkdf())
+
+let funt=()=>
+  {
+    
+  }
