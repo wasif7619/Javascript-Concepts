@@ -1,0 +1,28 @@
+//string functions 
+
+let a='Wasif'
+let b='ajmal'
+console.log(a.length)
+
+console.log(a.toUpperCase())
+console.log(a.toLowerCase())
+
+console.log(a.slice(2,5)) //for breaking the statement in limit 
+console.log(a.slice(2)) //for breaking the statement  till end 
+
+console.log(a.replace('Wasif','Ali')) //for replacing the string 
+
+console.log(a.concat(" is firend of  ",b,":)")) //for concating the strings
+
+let ahh="    how are you man what are you doing"
+console.log(ahh.trim())  //for removing the spaces 
+
+alert("there are alot of built in functions  of string you can take help of google  to fix your particular problem")
+
+
+let fr="wasif"
+for(let i=0;i<fr.length;i++)
+  {
+   let n= fr[i]
+  console.log(n)
+  }
