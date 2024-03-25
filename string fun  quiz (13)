@@ -1,0 +1,24 @@
+//string related quiz
+//q1 whats output is console.log("was\"")
+let a="was\""
+console.log(a.length)
+//q2 check string start with and end with function
+let b='wasif are you here and what are you doing '
+console.log(b.startsWith('wasif')) //startwith
+console.log(b.endsWith("you"))
+
+//q3 program to convert upper case letter to lower case letter 
+let c='HEY MAN HOW ARE YOU WHAT ARE YOU DOING THESE DAYS '
+console.log(c.toLowerCase())
+
+//q4 extract the amount from string 
+let d = 'here is string extract this 500'
+let words =Number.parseInt(d.slice(28))
+console.log(words)
+
+let f="change the string  on specific "
+f[3]="J" //its not happening we cant change string  
+console.log(f)
+
+
+
