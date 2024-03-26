@@ -1,0 +1,24 @@
+//arrays functions 
+let b=[1,2,3,4,4555,4424]
+console.log(b)
+let a=b.toString() //convert into string 
+console.log(a)
+
+let c=b.join('21') //21 is going to join with every element of the array
+console.log(c)
+
+b.pop()
+b.pop() //this function remove the last element of the array
+console.log(b)
+
+b.push("germany") //push is adding the element in array
+console.log(b)
+
+b.shift() //remove the first element and return it 
+console.log(b)
+
+b.unshift("im here for you") //add the first element and return it 
+console.log(b)
+
+b.delete(2)
+console.log(b)
