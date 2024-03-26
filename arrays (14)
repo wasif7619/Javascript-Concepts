@@ -1,0 +1,15 @@
+// topic is array in js 
+let z=[546,234,123,34,"wasif",false]
+console.log(z)
+console.log(z[3]) //for specific index
+z[6]="wasif is here" //adding a index in array
+console.log(z)
+z[2]=4555  //updating the value 
+console.log(z)
+console.log(z.length) // for checking length
+console.log(typeof z) //arrays are also a object 
+console.log("array in for loop is given below (thanks)")
+for(let i=0;i<z.length;i++)
+  {
+    console.log(z[i])
+  }
