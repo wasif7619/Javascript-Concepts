@@ -1,0 +1,26 @@
+// let n=[1,2,322,4,5,336,7,8213]
+// //delete n[4] //delete function
+// //console.log(n)
+
+// let n1=[11,12,13,14,15,16,17,18]
+// let n2=n.concat(n1)  //concat function
+// console.log(n2)
+
+// n.sort() //it display like 1 all then 2 and then 3rd elements
+// console.log(n)
+
+// let compare=(a,b)=>
+//   {
+//     return a-b
+//   }
+// n.sort(compare) //now this sort like ascending or decending
+// console.log(n)
+
+//splice and slice important
+let n1 = [11, 12, 13, 14, 15, 16, 17, 18]; 
+// n1.splice(3, 2, 4555, 4424, 4444, 4455); //start index ,how many want to remove and adding items 
+// console.log(n1);
+
+let a=n1.slice(2,5) //make another array of those removed elements
+console.log(a)
+
