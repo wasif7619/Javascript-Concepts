@@ -1,0 +1,24 @@
+//map
+let arr = [46, 12, 416, 87];
+let a = arr.map((val,index,array) => { //can put these as argu
+    console.log(val,index,array);
+    return val,index + 1;
+});
+
+console.log(a); // Print the new array with modified values
+
+
+//filter 
+let a2=arr.filter(()=>
+  {
+    return arr>13
+  })
+console.log(a2)
+
+//reduce 
+let a5=[13,34,6,78,9]
+let red=a5.reduce((b1,b2)=> //this func add all array values like 13,34=47+6.. till end 
+  {
+    return b1+b2
+  })
+console.log(red)
