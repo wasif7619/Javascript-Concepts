@@ -1,0 +1,29 @@
+//loops in array
+ let a=[1,24,5,4,132,3,6,67]
+// for(let i=0;i<a.length;i++)
+//   {
+//     console.log(a[i]*a[i])
+//   }
+
+//using foreach loop
+// a.forEach((Elem)=>
+//   {
+//     console.log(Elem*Elem)
+//   })
+
+// let b= "wasif" //array from make array from this string or from this html string 
+// let c=array.from(b)
+// console.log(c)
+
+//for of loop 
+for(let item of a)
+  {
+    console.log(item)
+  }
+
+//for in 
+// for(let item in a) //this return key values 
+// {
+//   console.log(item[item])
+  
+// }
