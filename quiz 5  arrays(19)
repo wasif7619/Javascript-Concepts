@@ -1,0 +1,37 @@
+//q1 add num on user input
+let arr=[1,2,3,4,5,6]
+let a=prompt("enter a number to add in array")
+arr=arr.concat(a)
+console.log(arr)
+  //another way
+arr.push(a)
+
+//q2 add until 0 is not entered
+let ar=[1,2,3,4,5,6]
+let b=prompt("enter a number to add in array")
+do{
+ar=ar.push(b)
+}while(b!=0)
+console.log(ar)
+
+//q3 filter num divisible by 10 
+let div = [10, 20, 38, 4, 50, 60]
+let filterdDiv = div.filter(c => {
+    return c % 10 === 0
+})
+console.log(filterDiv)
+
+//q4
+let sq = [10, 20, 38, 4, 50, 60]
+let s = sq.map(num => {
+    return num * num
+})
+console.log(s)
+
+//q5
+let re = [1, 2, 3, 4, 5, 6]
+let sa = re.reduce((num1, num2) => {
+    return num1 * num2
+})
+console.log(sa)
+
