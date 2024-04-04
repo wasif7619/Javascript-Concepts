@@ -1,0 +1,36 @@
+//question is generate a random number and take input from user to check if the user guess is correct near,greater,less then and also show total user try
+
+let rnd=Math.random()*100+1
+console.log(rnd)
+
+let chance=0
+
+let input=prompt("enter a number to check you are close or not")
+input=Number.parseInt(input)
+if(rnd<=input)
+{
+  console.log("your guess is near")
+  chance++
+  console.log("actual number is ",rnd)
+  
+}
+else if(rnd>input)
+{
+  console.log("your guess is less")
+  chance++
+  console.log("actual number is ",rnd)
+  
+}
+else if(rnd<input)
+  {
+    console.log("your guess is less")
+    chance++
+     console.log("actual number is ",rnd)
+  }
+else
+{
+   console.log("congurlations your guess is right")
+   chance++
+   console.log("actual number is ",rnd)
+}
+console.log("your total attempts are",chance)
