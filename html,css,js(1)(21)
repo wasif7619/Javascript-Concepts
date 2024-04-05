@@ -1,0 +1,9 @@
+//we can use console.log(console) to get all of the methods like 
+console.log()
+console.error()
+console.time()
+console.timeemd()
+console.asset()
+console.deb()
+console.warn()
+//and many more you can try 
