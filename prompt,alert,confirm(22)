@@ -1,0 +1,16 @@
+console.log("here we study about prompt,alert,confirm")
+let a = prompt("this is demo of prompt ")
+alert("this is demo of alert ")
+console.log("type of a is ", typeof a)
+a = Number.parseInt(a)
+console.log("now type of a is ", typeof a)
+document.write(a)
+
+let na = confirm("this is demo of confirm ")
+if (na) {
+  alert("your are  ready to go")
+  document.write("welcome " , na)
+}
+else {
+  alert("you are not  ready to  go")
+}
