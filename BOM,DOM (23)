@@ -1,0 +1,11 @@
+//mainly we use this when we need some action on user input or output
+//about BOM(broswer object model),DOM(docunment object model in this all our html page we just store it in object)
+console.log(window)
+console.log(document) //we can access it like below
+console.log(document.body)
+document.body.style.background = "yellow"
+
+//use of BOM alert,confirm,prompt also in bom
+
+//in console section you can also try like 
+//loaction.href="http://www.goole.com"
