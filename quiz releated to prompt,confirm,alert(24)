@@ -1,0 +1,45 @@
+//q1 take input from user and tell he or she can drive or not
+/*let age = prompt("Enter your age:")
+ age = Number.parseInt(age)
+if (age > 18) {
+    alert("You can drive on the road.");
+} else {
+    alert("You are not able to drive on the road.");
+}*/
+//q2 ask user to see prompt again using confirm
+
+/*const func = () => {
+  let age = prompt("Enter your age:");
+  if (age === null) {
+    console.error("Age must be positive.");
+    return false; // User canceled, stop the operation
+  }
+  age = Number.parseInt(age);
+
+  if (age > 18) {
+    alert("You can drive on the road.");
+  } else {
+    alert("You are not able to drive on the road.");
+  }
+  return true; // Continue the operation
+}
+
+while (true) {
+  if (!func()) {
+    break; // If user cancels, stop the loop
+  }
+  if (!confirm("Would you like to see the prompt again?")) {
+    break; // If user cancels, stop the loop
+  }
+}
+*/
+//q3 handle negative age the code is on line 12 
+//q4 if user  enter 4 or greater then go  google.com
+//let a = prompt("enter a number")
+//a = Number.parseInt(a)
+//if (a > 4) {
+  //location.href = "https://google.com"
+//}
+//q5 change color according to user input 
+let color=prompt("enter color for background")
+document.body.style.background=color
