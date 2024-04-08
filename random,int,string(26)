@@ -1,0 +1,9 @@
+//generate random integer
+let rand = Math.floor(Math.random() * 100) + 1
+console.log(rand)
+//random string 
+let def = ['w', 'a', 's', 'i', 'f']
+let strIndex = Math.floor(Math.random() * def.length)
+let randomCharacter = def[strIndex]
+console.log(randomCharacter)
+
