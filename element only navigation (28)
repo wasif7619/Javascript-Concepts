@@ -1,0 +1,33 @@
+//css
+html {
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+}
+
+ul {
+  display: flex;
+  background-color: pink;
+  margin-top: 0;
+  margin-bottom: 20;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+ul li {
+  list-style: none;
+  margin: auto;
+}
+
+
+//js
+
+let b = document.body
+console.log("first child of body is ", b.firstChild)//may text node ,comit node any type even space
+
+//element only navigation 
+console.log("first element of body is ", b.firstElementChild)//here first element we get 
+
+const color = () => {
+  document.body.firstElementChild.style.background = "yellow"
+}
