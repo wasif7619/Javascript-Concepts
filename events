@@ -1,0 +1,10 @@
+let a=document.getelementbyclassname('but')[0].onclick =()=>
+{
+alert("clicked")
+}
+
+let a=document.getelementbyclassname('but')[0].addeventlistener('click',function()
+{
+alert("clicked")
+}
+
